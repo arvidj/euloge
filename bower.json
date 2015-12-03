@@ -1,0 +1,13 @@
+{
+	"name": "Euloge",
+	"dependencies": {
+		"jquery": "*",
+		"underscore": "*",
+		"backbone": "*",
+		"bootstrap": "*",
+		"vis": "*"
+	},
+	"scripts": {
+		"postinstall": "wiredep -s index.html"
+	}
+}

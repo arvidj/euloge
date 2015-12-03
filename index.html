@@ -1,0 +1,41 @@
+<html>
+    <head>
+		<!-- bower:css -->
+		<link rel="stylesheet" href="bower_components/vis/dist/vis.min.css" />
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+		<!-- endbower -->
+
+		<title>euloge</title>
+	</head>
+
+    <body>
+        <div class="container">
+            <header>
+              <h1> <a class="logo" href="http://euloge.arvidj.eu">euloge</a></h1>
+			  <p>Analyze logs from ETE compiler / executor.</p>
+            </header>
+			
+			<div class="row">
+			  <div id="graph-container" class="col-md-6">
+				<h2>Graph</h2>
+			  </div>
+
+			  <div id="log-container" class="col-md-6">
+				<h2>Log</h2>
+				<div id="drop_zone">Drop log file-here</div>
+				<output id="list"></output>
+			  </div>
+			</div>
+        </div>
+
+		<!-- bower:js -->
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/underscore/underscore.js"></script>
+		<script src="bower_components/backbone/backbone.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="bower_components/vis/dist/vis.min.js"></script>
+		<!-- endbower -->
+        
+		<script type="text/javascript" src="euloge.js"></script>
+    </body>
+</html>
